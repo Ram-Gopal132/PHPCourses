@@ -27,7 +27,7 @@ $dep=$_POST['txtdep'];
 
 
 $mycon=mysqli_connect("localhost","root","","mynewdata");
-echo "connection sucessful<br>";
+// echo "connection sucessful<br>";
 
 $sql="insert into emp values(?,?,?,?)";
 $ps=$mycon->prepare($sql);
